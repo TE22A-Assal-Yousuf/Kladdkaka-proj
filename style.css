@@ -1,7 +1,52 @@
-header{
-    text-align: center;
+
+body{
+    
+    display: grid;
+    grid-template-columns: 8% 25% 40% 20%;
+    grid-template-rows: 10% 40% 25% 20%;
+    grid-column-gap: 20px ;
+    grid-row-gap: 50px ;
+
 }
-.logo{
-    height: auto;
+
+
+#logo{
+    display: flex;
+    border-radius: 25px;
+    width: 90px;
+    height: 90px;
+    
+}
+
+#logobox{
+    display: flex;
+    border-radius: 25px;
+    background-color: rgb(243, 243, 243);
     width: 100px;
+    height: 100px;
+}
+
+#titlebox{
+    border-radius: 25px;    
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: rgb(243, 243, 243);
+
+
+}
+
+#kladdkaka1{
+    display: flex;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    grid-column-start: 2;
+    grid-column-end: 3;   
+    padding: auto;
+}
+
+.kladdkakor{
+    border-radius: 25px ;
+    grid-column-start: 2;
+    grid-column-end: 3; 
 }
