@@ -3,12 +3,20 @@ body{
     
     display: grid;
     grid-template-columns: 8% 25% 40% 20%;
-    grid-template-rows: 10% 40% 25% 20%;
+    grid-template-rows: 10% 8% 40% 40% 20%;
     grid-column-gap: 20px ;
-    grid-row-gap: 50px ;
+    grid-row-gap: 5px ;
 
 }
 
+h2{
+    text-align: center;
+    background-color: gray;
+    font-size: xx-large;
+}
+p{
+    font-size: x-large;
+}
 
 #logo{
     display: flex;
@@ -42,11 +50,90 @@ body{
     border-bottom-right-radius: 25px;
     grid-column-start: 2;
     grid-column-end: 3;   
-    padding: auto;
+    margin: 5px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+ 
+}
+
+#kladdkaka-2{
+    display: flex;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    grid-column-start: 2;
+    grid-column-end: 3;   
+    margin: 5px;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+}
+
+#ingridienser{
+    margin: 5px;
+    background-color: rgb(255, 106, 142);
+    grid-column-start: 4;
+    grid-column-end: 5;  
+    grid-row-start: 3;
+    grid-row-end: 4;
+    
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#info{
+    background-color: gray;
+    display: flex;
+    border-radius: 25px;
+    grid-column-start: 2;
+    grid-column-end: 3;   
+    margin: 5px;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+footer{
+    background-color: aqua ;
+    border-radius: 10px;
+    grid-column-start: 3;
+    grid-column-end: 5;   
+    margin: 5px;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+#flerrecept{
+    margin: 5px;
+    background-color: rgb(131, 240, 255);
+    grid-column-start: 4;
+    grid-column-end: 5;  
+    grid-row-start: 4;
+    grid-row-end: 5;
+    
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#ratingbox{
+    background-color: gray;
+    height: 20px;
+    
+}
+
+#instructions{
+    margin: 5px;
+    background-color: rgb(255, 199, 55);
+    grid-column-start: 3;
+    grid-column-end: 4;  
+    grid-row-start: 3;
+    grid-row-end: 5;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 .kladdkakor{
     border-radius: 25px ;
     grid-column-start: 2;
     grid-column-end: 3; 
+    width: 90%;
+    height: auto;
 }
